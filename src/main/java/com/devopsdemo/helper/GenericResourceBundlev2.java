@@ -8,6 +8,7 @@ public class GenericResourceBundlev2 {
 		ResourceBundle rb = ResourceBundle.getBundle("ResourceBundle");
 		Enumeration <String> keys = rb.getKeys();
 		String value="";
+		System.out.println("Git push and trigger the build");
 		while (keys.hasMoreElements()) {
 			
 			String key =  keys.nextElement();
